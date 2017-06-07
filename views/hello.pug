@@ -1,0 +1,21 @@
+//- Emmet just hit tab for 10 <li>s
+//- ul.dogs>li.dog.dog$$*10
+
+//- .wrapper
+//- 	- const upDog = dog.toUpperCase();
+//- 	p Hello! My dog's name is #{upDog}
+//- 	p Hello! My dog's name is #{dog.toUpperCase()}
+
+//- 	img.dog(src="dog.jpg" alt=`Dog ${dog}`)
+
+//- 	h2
+//- 		| Hello
+//- 		em How are you?
+
+extends layout
+
+//- block header
+//- 	h Yoo!
+
+block content
+	h2 Sale ends in #{h.moment().endOf('day').fromNow()}
